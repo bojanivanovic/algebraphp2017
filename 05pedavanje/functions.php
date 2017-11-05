@@ -69,5 +69,9 @@ function changeVariableByValue($input) {
 	$input = null;
 }
 
-$testGlobalVariable;
-$testGlobalVariable = "ddd";
+// Function is created to demonstrate the ability to access the variable globVar which is created outside this function, and
+// normaly we wouldn't be able to access this variable but thanks to the keyword global we can access it.
+function globalScopeTest2() {
+	global $globVar;
+	echo "<br> globvar value inside globalScopeTest2(): " . $globVar . "<br>"; 
+}
