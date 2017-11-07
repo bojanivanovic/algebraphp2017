@@ -1,0 +1,6 @@
+Izrada aplikacije za evidenciju studenata po kolegijima
+
+1. Odvojena baza za kolegije od studenata
+2. Posebne PHP datoteke koje se brinu o citanju datoteka
+3. Posebne PHP datoteke koje se brinu o spajanju i manipulaciji podacima
+4. Posebne PHP datoteke koje se brinu o tome kako ce izgledati ispis pojedinog zapisa.

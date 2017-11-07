@@ -1,0 +1,19 @@
+SAMOSTALNI ZADATAK - Pseudokod napraviti
+
+U txt datoteci cemo imati studente.
+Svaki student ima svoj id, ime, prezime i na kraju popis kolegija koje slusa (SIFRA SAMO)
+U drugoj txt datoteci imamo popis kolegija.
+svaki kolegij ima sifru, naziv i broj ECTS bodova koje nosi
+
+Treba na ekran ispisati sve studente i sve kolegije koji im pripadaju.
+Ispis treba biti po principu
+student Pero peric slusa:
+  Ananotmija 10 ECTS
+  Programiranje 10 ECTS
+  Povijest 1 ECTS
+ 
+Student Ivana Ivanic
+  Matematika 5 ECTS
+  Elektrotehnika 10 ECTS
+  
+ 
