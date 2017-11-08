@@ -1,0 +1,4 @@
+1;Programiranje PHP;5
+2;C# programiranje;5
+3;Elektrotehnika;4
+4;Poslovni hrvatski;3
