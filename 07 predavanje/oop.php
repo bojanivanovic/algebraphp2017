@@ -1,14 +1,15 @@
 <?php
+// Uvod u objetkno orijentirano programmiranje.$_COOKIE
 
-require ("animals.php");
+require ("animals.php"); // Iz ove datoteke cemo koristiti klasu Animal
 
-$tiger = new Animal;
+$tiger = new Animal; // Kreiramo objekt (instancu) klase Anima
 var_dump($tiger);
 
-$tiger->skinColor = "Purple";
+$tiger->skinColor = "Purple"; // Pridjeljujemo vrijednost propertyu objekta
 var_dump($tiger);
-echo "<br>Boja: $tiger->skinColor";
+echo "<br>Boja: $tiger->skinColor"; // ispis vrijednosti propertya objekta
 
-$tiger->speak();
+$tiger->speak(); // pozivamo metodu nad objektom
 
-$tiger->numberOfLimbs = 5;
+$tiger->numberOfLimbs = 5; // pokusavamo raditi s propertyem koja ima private prao pristupa sto rezultira pogreskom
