@@ -1,0 +1,31 @@
+body{
+	background-color:HotPink;
+}
+table{
+	border:1px solid gray;
+	background-color:white;
+	width:27%;
+	margin:auto;
+}
+th{
+	background-color:lightGray;
+	border-color:gray;
+	border:1px solid gray;
+}
+td{
+	border:1px solid gray;
+	background-color:lightCyan;
+}
+select{
+	background-color:LightSteelBlue;
+}
+h1{
+	text-align:center;
+	font-family:Impact;
+	color:lightCyan;
+}
+img{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
