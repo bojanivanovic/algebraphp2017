@@ -1,1 +1,6 @@
 1. Napisati kratki seminar / izvjestaj o normalizacijskim formama (sto su, cemu sluze)
+2. Napuniti caffe_bars bazu podaaka s pravim podacima. Napuniti 3 do 5 poslovnica, 10-15 konobara, spojiti poslovnice i konobare.
+3. Barem 3 konobara moraju imati vise od jedne lokacije na kojoj rade
+4. Barem 2 konobara i 2 lokacije moraju imati 2 konakt broja i 2 email adrese.
+5. Unose podaaka raditi kroz konzolu i kroz phpmyadmin na da nacin (pomocu "klikanja" i pisanjem koda)
+6. Simulirati gresku kod upisa pa je potrebno urediti podatak u tablici

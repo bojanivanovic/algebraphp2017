@@ -1,3 +1,5 @@
 Kreirati racun na github.com
 Poslati korisnicko ime na moj predavacki email
 Proci kratki tutorial na CodeAcademy: https://www.codecademy.com/learn/learn-git
+
+Nauciti kako raditi pull request
