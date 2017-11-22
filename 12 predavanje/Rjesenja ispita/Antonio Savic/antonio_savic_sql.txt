@@ -1,0 +1,4 @@
+SELECT member_list.member_name AS Ime Duznika
+FROM member_list INNER JOIN loan_list ON
+member_list.ID_member = loan_list.ID_member
+WHERE loan_list.loan_returned = 0;

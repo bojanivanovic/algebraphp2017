@@ -1,0 +1,1 @@
+SELECT ime,prezime, film.naziv FROM clan JOIN posudba ON posudba.id_clana = clan.id JOIN film ON film.id = posudba.id_filma WHERE datum_vracanja IS NULL

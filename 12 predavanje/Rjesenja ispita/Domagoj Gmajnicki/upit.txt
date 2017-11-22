@@ -1,0 +1,7 @@
+select name,Last_name
+from clanovi INNER JOIN posudba
+on clanovi.id = posudba.Clan_ID
+WHERE posudba.datum_vracanja IS null
+
+to je za prvi upit 
+

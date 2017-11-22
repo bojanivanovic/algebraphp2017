@@ -1,0 +1,4 @@
+SELECT Ime , Prezime
+FROM clanovi LEFT JOIN posudbe_filmova
+on clanovi.id = posudbe_filmova.ID_Clana
+WHERE posudbe_filmova.Datum_Vracanja IS NULL;

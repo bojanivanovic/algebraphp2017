@@ -1,0 +1,3 @@
+SELECT ime,prezime
+FROM clanovi INNER JOIN posudba
+ON id.clanovi=datum.posudbe

@@ -1,0 +1,21 @@
+Zadatak 4.
+
+use videoteka;
+select clanovi.ime, clanovi.prezime
+FROM clanovi INNER JOIN evidencija ON clanovi.clan_ID = evidencija.clan_ID
+INNER JOIN filmovi ON evidencija.film_ID = filmovi.film_ID
+WHERE evidencija.datum_povratka < CURRENT_DATE;
+
+Zadatak 5.
+
+use videoteka;
+select clanovi.ime, clanovi.prezime, filmovi.naziv
+FROM clanovi INNER JOIN evidencija ON clanovi.clan_ID = evidencija.clan_ID
+INNER JOIN filmovi ON evidencija.film_ID = filmovi.film_ID
+WHERE evidencija.datum_povratka < CURRENT_DATE;
+
+use videoteka;
+select c.ime, c.prezime, f.naziv
+FROM clanovi c INNER JOIN evidencija e ON c.clan_ID = e.clan_ID
+INNER JOIN filmovi f ON e.film_ID = f.film_ID
+WHERE e.datum_povratka < CURRENT_DATE;

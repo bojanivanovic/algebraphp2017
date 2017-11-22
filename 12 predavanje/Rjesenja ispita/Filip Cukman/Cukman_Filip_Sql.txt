@@ -1,0 +1,5 @@
+SELECT ime, prezime
+FROM posudba INNER JOIN clanovi
+ON clanovi.id = posudba.id_clan
+INNER JOIN filmovi on posudba.id_film = filmovi.id
+WHERE vraceno is null;

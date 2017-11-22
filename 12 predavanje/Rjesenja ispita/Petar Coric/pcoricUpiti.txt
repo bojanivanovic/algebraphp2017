@@ -1,0 +1,18 @@
+--Vraca ime i prezime osoba koje nisu vratile film
+
+SELECT 
+fname AS FirstName,lname AS LastName
+FROM
+customers INNER JOIN movies_status
+ON customers.id=movies_status.customer_id
+WHERE return_date IS NULL;
+
+--isto ko gore+ime filma
+
+SELECT 
+customers.fname AS FirstName,customers.lname AS LastName,movies.name AS Movie
+FROM
+customers INNER JOIN movies_status
+ON customers.id=movies_status.customer_id INNER JOIN movies
+ON movies_status.movie_id=movies.id
+WHERE return_date IS NULL;

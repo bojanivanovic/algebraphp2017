@@ -1,0 +1,1 @@
+SELECT ime, prezime, film.ime_filma FROM `clan` JOIN evidencija ON evidencija.id_clana = clan.id JOIN film ON film.id = evidencija.id_filma WHERE `dat_vracanja` IS NULL
